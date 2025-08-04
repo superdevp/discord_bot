@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_NO_WARNINGS=2 && node index.js",
+    "dev": "set NODE_NO_WARNINGS=1 && nodemon index.js",
+    "deploy-commands": "node deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "openai": "^4.79.4",
+    "punycode": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
